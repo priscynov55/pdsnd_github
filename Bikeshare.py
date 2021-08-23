@@ -25,9 +25,9 @@ day = ''
 
 #def get_filters(city,month,day):
 city = ''
-while city not in ('chicago', 'new york city', 'washington'):
+while city not in CITY_DATA:
           city = input("Please select the city name from the following options : chicago, new york city, washington.\n").lower()            
-          if city in ('chicago','new york city','washington'):
+          if city in CITY_DATA:
              break
 
 month = ''
