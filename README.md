@@ -20,3 +20,5 @@ washington csv
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 https://www.delftstack.com/howto/python/mode-of-list-in-python
 https://www.studytonight.com/python-howtos/how-to-get-month-name-from-month-number-in-python
+https://www.alpharithms.com/python-datetime-weekday-name-482616/
+https://stackoverflow.com/questions/287871/how-to-print-colored-text-to-the-terminal
