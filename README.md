@@ -12,8 +12,11 @@ Describe what your project is about and what it does.
 working on testing github
 
 ### Files used
-Include the files used
+chicago.csv
+new york city.csv
+washington csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.delftstack.com/howto/python/mode-of-list-in-python
+https://www.studytonight.com/python-howtos/how-to-get-month-name-from-month-number-in-python
