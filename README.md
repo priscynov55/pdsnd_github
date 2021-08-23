@@ -2,13 +2,14 @@
 
 ### Date created
 Include the date you created this project and README file.
+8/23/2021
 
 ### Project Title
-Replace the Project Title
+git guru making in progress
 
 ### Description
 Describe what your project is about and what it does.
-Testing github
+working on testing github
 
 ### Files used
 Include the files used
