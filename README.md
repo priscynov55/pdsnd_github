@@ -5,7 +5,7 @@ Include the date you created this project and README file.
 8/23/2021
 
 ### Project Title
-git guru making in progress
+GIT GURU-MAKING IN PROGRESS
 
 ### Description
 Describe what your project is about and what it does.
