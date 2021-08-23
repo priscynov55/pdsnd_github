@@ -25,15 +25,15 @@ day = ''
 
 #def get_filters(city,month,day):
 city = ''
-while city not in ('chicago', 'new york city', 'washington'):
+while city not in CITY_DATA:
           city = input("Please select the city name from the following options : chicago, new york city, washington.\n").lower()            
-          if city in ('chicago','new york city','washington'):
+          if city in CITY_DATA:
              break
 
 month = ''
-while month not in ('all','january', 'february','march', 'april', 'may', 'june'):
-          month = input("\nPlease select the month from the following options : all,january,february,march,april,may,june.\n").lower()            
-          if month in ('all','january', 'february','march', 'april', 'may', 'june'):
+while month not in ('all','january', 'february','march', 'april', 'may', 'june','july', 'august', 'september', 'october', 'november', 'december'):
+          month = input("\nPlease select the month from the following options : all,january,february,march,april,may,june,july,august,september,october,november,december.\n").lower()            
+          if month in ('all','january', 'february','march', 'april', 'may', 'june','july', 'august', 'september', 'october', 'november', 'december'):
              break
 
 day = ''
@@ -60,7 +60,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-        months = ['january', 'february', 'march', 'april', 'may', 'june']
+        months = ['january', 'february', 'march', 'april', 'may', 'june','july', 'august', 'september', 'october', 'november', 'december']
         month = months.index(month) + 1
 
         # filter by month to create the new dataframe
